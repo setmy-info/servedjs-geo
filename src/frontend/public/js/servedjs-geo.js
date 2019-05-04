@@ -12,6 +12,7 @@
     jsdi.service("$geo", function () {
         return {
             DEGREE_METERS: 111134.0,
+            paths: {},
             newWatcher: function (watcherSuccess, watcherError, options) {
                 return {
                     success: function (position) {
