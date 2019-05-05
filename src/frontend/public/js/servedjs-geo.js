@@ -43,10 +43,13 @@
                 };
             },
             newPath: function (pointsArray) {
-                return {
+                var path = {
                     points: pointsArray,
-                    init: function () {
-                        this.travelAndCalc();
+                    end: pointsArray[pointsArray.size - 1],
+                    calculations: {
+                        length: 0,
+                        middlePosition: -1,
+                        middle: null
                     },
                     travelAndCalc: function () {
                         var i, previous, current;
@@ -54,8 +57,29 @@
                         for (i = 1; i < this.points.length; i++) {
                             current = this.points[i];
                         }
+                    },
+                    reArange: function (beginPosition, endPosition) {
+                        var i, increase, direction = endPosition - beginPosition, j = 0, newArray = [];
+                        if (beginPosition < endPosition) {
+                            i = beginPosition;
+                            increase = 1;
+                        } else {
+                            i = endPosition;
+                            increase = -1;
+                        }
+                        for (; (direction > 0 && i <= endPosition) || (direction < 0 && i >= endPosition); i = i + increase, j++) {
+                            newArray[j] = this.points[i];
+                        }
+                        this.end = newArray[newArray.size - 1];
+                        this.points = newArray;
                     }
                 };
+                return path;
+            },
+            addPath: function (pathName, pathArray) {
+                var path = this.newPath(pathArray);
+                path.name = pathName;
+                this.paths[pathName] = path;
             },
             pointInMeters: function (point) {
                 return {
