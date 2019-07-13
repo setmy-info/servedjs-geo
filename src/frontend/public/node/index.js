@@ -5,5 +5,5 @@ global.localStorage = {};
 global.sessionStorage = {};
 
 require('../../../../node_modules/servicejs/dist/servicejs');
-require('../js/servedjs');
+require('../../../../node_modules/servedjs/dist/servedjs');
 require('./main');

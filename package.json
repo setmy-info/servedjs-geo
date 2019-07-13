@@ -1,6 +1,6 @@
 {
     "name": "servedjs-geo",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Servicejs integrated tools.",
     "main": "src/index.js",
     "scripts": {
@@ -29,17 +29,9 @@
     },
     "homepage": "https://github.com/setmy-info/servedjs#readme",
     "dependencies": {
-        "servicejs": "^1.1.7",
-        "lodash": "4.17.11",
-        "cookie-parser": "~1.4.4",
-        "body-parser": "^1.18.3",
-        "debug": "~2.6.9",
-        "express": "~4.16.4",
-        "http-errors": "~1.7.2",
-        "jsonwebtoken": "^8.5.1",
-        "morgan": "~1.9.1",
-        "pug": "^2.0.3",
-        "serve-favicon": "~2.5.0"
+        "servicejs": "^1.1.8",
+        "servedjs": "1.4.3",
+        "lodash": "4.17.11"
     },
     "devDependencies": {
         "jasmine": "^3.4.0",
@@ -50,7 +42,16 @@
         "karma-jasmine": "^2.0.1",
         "webpack": "^4.30.0",
         "webpack-cli": "^3.3.1",
-        "uglify-js": "^3.5.8"
+        "uglify-js": "^3.5.8",
+        "cookie-parser": "~1.4.4",
+        "body-parser": "^1.18.3",
+        "debug": "~2.6.9",
+        "express": "~4.16.4",
+        "http-errors": "~1.7.2",
+        "jsonwebtoken": "^8.5.1",
+        "morgan": "~1.9.1",
+        "pug": "^2.0.3",
+        "serve-favicon": "~2.5.0"
     },
     "engines": {
         "node": ">= 10.15.3",
