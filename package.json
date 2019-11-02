@@ -31,7 +31,7 @@
     "dependencies": {
         "servicejs": "^1.1.8",
         "servedjs": "1.4.3",
-        "lodash": "4.17.11"
+        "lodash": "4.17.13"
     },
     "devDependencies": {
         "jasmine": "^3.4.0",
