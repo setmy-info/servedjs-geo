@@ -1,6 +1,6 @@
 {
     "name": "servedjs-geo",
-    "version": "1.0.2-SNAPSHOT",
+    "version": "1.0.2",
     "description": "Servicejs integrated tools.",
     "main": "src/index.js",
     "scripts": {
