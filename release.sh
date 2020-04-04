@@ -4,7 +4,7 @@
 # Copyright (c) 2017-2020 Imre Tabur <imre.tabur@eesti.ee>
 
 NAME=servedjs-geo
-RELEASE=1.0.3-SNAPSHOT
+RELEASE=1.0.3
 VERSION_TAG=version-${RELEASE}
 
 npm install
@@ -18,6 +18,9 @@ git commit -m "${VERSION_TAG}"
 git push
 git checkout master
 git merge develop
-git tag -a ${VERSION_TAG} -m "${VERSION_TAG}" && git push origin ${VERSION_TAG} && git push && npm publish
+git tag -a ${VERSION_TAG} -m "${VERSION_TAG}"
+git push origin ${VERSION_TAG}
+git push
+npm publish
 
 exit 0
