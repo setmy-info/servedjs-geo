@@ -1,9 +1,9 @@
 #!/bin/sh
 
 # MIT License
-# Copyright (c) 2017-2019 Imre Tabur <imre.tabur@eesti.ee>
+# Copyright (c) 2017-2020 Imre Tabur <imre.tabur@eesti.ee>
 
-RELEASE=1.0.2
+RELEASE=1.0.3-SNAPSHOT
 VERSION_TAG=version-${RELEASE}
 
 npm install && npm run build && npm run test
