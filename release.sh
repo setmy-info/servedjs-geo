@@ -3,10 +3,16 @@
 # MIT License
 # Copyright (c) 2017-2020 Imre Tabur <imre.tabur@eesti.ee>
 
+NAME=servedjs-geo
 RELEASE=1.0.3-SNAPSHOT
 VERSION_TAG=version-${RELEASE}
 
-npm install && npm run build && npm run test
+npm install
+npm audit fix
+npm ci
+npm run build
+npm run test
+npm run unit
 git add ./dist package.json package-lock.json release.sh src/frontend/public/js/
 git commit -m "${VERSION_TAG}"
 git push
