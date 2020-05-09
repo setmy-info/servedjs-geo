@@ -4,7 +4,7 @@
 # Copyright (c) 2017-2020 Imre Tabur <imre.tabur@eesti.ee>
 
 NAME=servedjs-geo
-RELEASE=1.0.3
+RELEASE=`node ./src/build/version.js`
 VERSION_TAG=version-${RELEASE}
 
 npm install
