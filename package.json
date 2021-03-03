@@ -48,7 +48,7 @@
         "karma-jasmine": "^3.1.1",
         "karma-junit-reporter": "^2.0.1",
         "morgan": "~1.10.0",
-        "pug": "^2.0.4",
+        "pug": "^3.0.1",
         "serve-favicon": "~2.5.0",
         "uglify-js": "^3.8.1",
         "webpack": "^4.42.1",
