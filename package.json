@@ -1,6 +1,6 @@
 {
     "name": "servedjs-geo",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Servicejs integrated tools.",
     "license": "MIT",
     "author": "Imre Tabur <imre.tabur@eesti.ee>",
@@ -29,30 +29,30 @@
     },
     "homepage": "https://github.com/setmy-info/servedjs#readme",
     "dependencies": {
-        "servedjs": "1.5.3",
-        "lodash": "4.17.15"
+        "lodash": "4.17.21",
+        "servedjs": "1.5.4"
     },
     "devDependencies": {
         "body-parser": "^1.19.0",
         "cookie-parser": "~1.4.5",
-        "debug": "~4.1.1",
+        "debug": "~4.3.1",
         "express": "~4.17.1",
-        "http-errors": "~1.7.3",
-        "jasmine": "^3.5.0",
-        "jasmine-core": "^3.5.0",
+        "http-errors": "~1.8.0",
+        "jasmine": "^3.7.0",
+        "jasmine-core": "^3.7.1",
         "jsonwebtoken": "^8.5.1",
-        "karma": "^5.0.5",
+        "karma": "^6.3.3",
         "karma-chrome-launcher": "^3.1.0",
-        "karma-coverage": "^2.0.2",
-        "karma-firefox-launcher": "^1.3.0",
-        "karma-jasmine": "^3.1.1",
+        "karma-coverage": "^2.0.3",
+        "karma-firefox-launcher": "^2.1.1",
+        "karma-jasmine": "^4.0.1",
         "karma-junit-reporter": "^2.0.1",
         "morgan": "~1.10.0",
-        "pug": "^2.0.4",
+        "pug": "^3.0.2",
         "serve-favicon": "~2.5.0",
-        "uglify-js": "^3.8.1",
-        "webpack": "^4.42.1",
-        "webpack-cli": "^3.3.11"
+        "uglify-js": "^3.13.9",
+        "webpack": "^5.38.1",
+        "webpack-cli": "^4.7.2"
     },
     "engines": {
         "node": ">= 10.15.3",

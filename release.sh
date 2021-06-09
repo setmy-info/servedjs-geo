@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # MIT License
-# Copyright (c) 2017-2020 Imre Tabur <imre.tabur@eesti.ee>
+# Copyright (c) 2017-2021 Imre Tabur <imre.tabur@eesti.ee>
 
 NAME=servedjs-geo
 RELEASE=`node ./src/build/version.js`
