@@ -8,5 +8,4 @@
 
 npm install && npm audit fix && npm audit fix --force
 
-
 npm ci && npm run build && npm run unit && npm run test && npm start
