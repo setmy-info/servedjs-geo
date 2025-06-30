@@ -3,7 +3,7 @@
     "version": "1.1.2",
     "description": "Servicejs integrated tools.",
     "license": "MIT",
-    "author": "Imre Tabur <imre.tabur@eesti.ee>",
+    "author": "Imre Tabur <imre.tabur@mail.ee>",
     "main": "dist/index.js",
     "scripts": {
         "start": "node src/backend/bin/www",
