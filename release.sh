@@ -18,8 +18,9 @@ git commit -m "${VERSION_TAG}"
 git push
 git checkout master
 git merge develop
-git tag -a ${VERSION_TAG} -m "${VERSION_TAG}"
-git push origin ${VERSION_TAG}
+smi-new-tag "${VERSION_TAG}"
+#git tag -a ${VERSION_TAG} -m "${VERSION_TAG}"
+#git push origin ${VERSION_TAG}
 git push
 npm publish
 
